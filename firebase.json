@@ -1,0 +1,36 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "fluttercontactapp-bd165",
+          "appId": "1:823209466542:android:f3eef822950a3041fc2b3f",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "fluttercontactapp-bd165",
+          "configurations": {
+            "android": "1:823209466542:android:f3eef822950a3041fc2b3f",
+            "ios": "1:823209466542:ios:882ae4a5b899d136fc2b3f",
+            "macos": "1:823209466542:ios:882ae4a5b899d136fc2b3f",
+            "web": "1:823209466542:web:acf157130015afc0fc2b3f",
+            "windows": "1:823209466542:web:f899ca353f4352e3fc2b3f"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "source": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "us-central1"
+    }
+  }
+}
